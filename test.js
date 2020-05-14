@@ -1,3 +1,5 @@
+// open in localhost/COMWEB/TP3_COMWEB2 (after starting apache2)
+
 function ajaxRequest(type, url, callback, callback2){
     let xhr = new XMLHttpRequest();
     xhr.open(type, url);
